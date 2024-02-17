@@ -5,9 +5,65 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+ 
+  }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+BODY {
+  background-image: linear-gradient(to bottom, #60835e, #477a61, #307165, #1a6667, #0b5b67, #0a5464, #0e4d61, #13465c, #124257, #103e52, #0f3b4e, #0e3749);
+  /* height: 100VH; */
+  -webkit-background-size:  cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  min-height: 99vh;
+} 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 8vw;
+  margin-top: 1vh;
+  border-bottom: 1px solid rgb(106, 183, 209);
+}
+
+.links {
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+  padding-left: 1vw;
+  padding-bottom: 1vh;
+  align-content: flex-end;
+  color: rgb(4, 2, 81);
+}
+
+.links div:hover {
+  color: whitesmoke;
+}
+
+.portfolio {
+  color: rgb(106, 183, 209);
+  font-size: 2rem;
+}
+
+.maindiv {
+  margin-top: 4vh;
+  margin-inline: 8vw;
+  color: whitesmoke
+}
+
+.prodiv {
+  margin-top: 1vh;
+  margin-inline: 8vw;
+  color: whitesmoke
+}
+
+
+.emailform{
+  width: 28vw;
 }
